@@ -1,0 +1,25 @@
+@import "./../../styles/variables.scss";
+
+nav {
+  background-color: $secondary-color;
+  display: flex;
+  margin-bottom: 20px;
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 0 20px;
+    line-height: 50px;
+
+    &:hover {
+      background-color: white;
+      color: $primary-color;
+    }
+  }
+
+  .active {
+    background-color: #ffffff;
+    color: $primary-color;
+  }
+}

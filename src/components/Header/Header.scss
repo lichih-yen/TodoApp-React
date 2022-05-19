@@ -1,0 +1,20 @@
+@import "./../../styles/variables.scss";
+
+header {
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 5px silver;
+
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    color: $primary-color;
+  }
+
+  .author {
+    font-weight: 400;
+    color: $primary-color;
+  }
+}

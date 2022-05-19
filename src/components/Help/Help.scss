@@ -1,0 +1,22 @@
+@import "./../../styles/variables.scss";
+
+main {
+  margin-left: 30px;
+
+  h1 {
+    color: $secondary-color;
+  }
+
+  p {
+    color: $primary-color;
+  }
+
+  strong {
+    color: $secondary-color;
+  }
+
+  em {
+    font-weight: bold;
+    color: $secondary-color;
+  }
+}
